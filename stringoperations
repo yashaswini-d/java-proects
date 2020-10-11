@@ -1,0 +1,69 @@
+package stringoperations;
+
+public class StringExample {
+	
+	
+	public static void main(String args[]) {
+		
+		
+		String s1= new String("Srikanth");
+		
+		System.out.println(s1);
+		
+		
+		String s2 = new String("srikanth");
+		
+		System.out.println(s2);
+		
+		String s3="Srikanth";
+		String s4=" is expert in java";
+		
+		if(s1.equals(s2)) {
+			System.out.println("both strings are same");
+		}else {
+			System.out.println("both strings are different ");
+		}
+		
+		
+		if(s1.equalsIgnoreCase(s2)) {
+			System.out.println("both strings are same");
+		}
+		
+		System.err.println(s3.toLowerCase());
+		System.err.println(s3.toUpperCase());
+		
+		System.out.println(s1.length());
+		
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+
+		System.out.println(s3.hashCode());
+
+System.out.println(s2.charAt(5));
+
+System.out.println(s2.concat(s4));
+
+System.out.println(s4.endsWith("va"));
+
+System.out.println(s2.indexOf('s'));
+
+System.out.println(s4.intern());
+
+System.out.println(s4.trim());
+String s5="";
+System.out.println(s5.trim().isEmpty());
+
+if(s5.isEmpty()) {
+     System.out.println(" Welcome to Yashaswini");	
+}
+
+System.out.println(s1.replace('i','I'));
+Integer a=10;
+
+String s6=a.toString();
+System.out.println(s6);
+
+		
+	}
+
+}
