@@ -1,0 +1,29 @@
+public static void main(String[] args)
+{
+  system.out.println("hi this is yashaswini")
+ }
+ 
+ public:
+        It is an access modifier . It specifies where and who can aceess the method.
+        Making the main() method public makes it globally available.
+        It is made public so that JVM can invoke it from outside the class as it is not present in the current class.
+        
+ static:
+        It is a keyword which is when associated with a method, makes it a class related method.
+        The main() method is static so that JVM can invoke it without instantiating the class.
+        This also saves the unnecessary wastage of memory which would have been used by the object declared only for calling the main() method by the JVM.
+        
+ void:
+      It is a keyword and used to specify that a method doesn't return anything.
+      As main() method does't return anything its return type is void .
+      As soon as the main method terminates the java program terminates too.
+      
+main:
+    It is the name of java main method.
+    It is the Identifier that the JVM looks for as the starting point of java program.
+    It's not a keyword.
+    
+String[] args:
+      It stores java command line arguments and is an array of type java.lang.String class.
+      Here the name of the String array is args but it is not fixed and user can use any name in place of it.
+      
